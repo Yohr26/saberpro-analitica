@@ -1,0 +1,37 @@
+{
+  "nombre": "Resultados únicos Saber Pro",
+  "entidad": "Instituto Colombiano para la Evaluación de la Educación (ICFES)",
+  "portal": "Datos Abiertos Colombia (datos.gov.co)",
+  "identificador": "u37r-hjmu",
+  "url": "https://www.datos.gov.co/Educaci-n/Resultados-nicos-Saber-Pro/u37r-hjmu",
+  "fecha_descarga": "2026-10-14",
+  "metodo_descarga": "API SODA (CSV) con filtro periodo 20201-20229 y 36 columnas seleccionadas (src/01_descargar_datos.py)",
+  "periodos_incluidos": [
+    "20202",
+    "20203",
+    "20212",
+    "20213",
+    "20222",
+    "20223",
+    "20225",
+    "20226"
+  ],
+  "registros_descargados": 721129,
+  "registros_tras_limpieza": 699843,
+  "unidad_de_analisis": "Una presentación de la prueba Saber Pro por estudiante (pregrado universitario)",
+  "variables_descargadas": 36,
+  "variables_finales": 44,
+  "variable_objetivo": "puntaje_global (derivado: promedio de los 5 módulos genéricos, escala 0-300)",
+  "consideraciones_eticas": [
+    "Datos abiertos y anonimizados publicados por el ICFES; no contienen nombre ni documento.",
+    "Se descarta la fecha de nacimiento y solo se conserva la edad en años; el identificador es el consecutivo anonimizado.",
+    "No se intenta reidentificar personas; los resultados se reportan agregados por grupos con n elevado.",
+    "Las diferencias entre grupos (género, estrato, región) son asociaciones descriptivas, no causalidad, y no deben usarse para estigmatizar poblaciones o instituciones.",
+    "Las variables socioeconómicas son autorreportadas por el estudiante al inscribirse."
+  ],
+  "limitaciones": [
+    "El conjunto abierto solo llega al periodo 2022; no incluye acreditación institucional ni región oficial del ICFES.",
+    "No contiene horas de estudio ni puntaje global oficial.",
+    "Estrato y educación de los padres son autorreportados y tienen valores faltantes (ver nulos_antes_despues.csv)."
+  ]
+}

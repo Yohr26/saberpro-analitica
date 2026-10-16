@@ -1,0 +1,45 @@
+﻿variable,tipo,descripcion,origen,rango_o_categorias,pct_nulos_crudo,pct_nulos_limpio
+id_anonimo,Identificador,Consecutivo anonimizado de la presentación de la prueba,estu_consecutivo,699843 categorías,,0.0
+periodo,Categórica ordinal,Periodo de aplicación (AAAAP),periodo,8 categorías,,0.0
+anio,Numérica discreta,Año de aplicación (derivada de periodo),derivada,2020 – 2022,,0.0
+genero,Categórica binaria,Género reportado (F/M),estu_genero,"F, M",0.01,0.01
+edad,Numérica continua,Edad en años al momento de la prueba; fuera de 16-70 = nulo,derivada de estu_fechanacimiento,"16 – 70  (media 26,5)",0.0,0.05
+depto_reside,Categórica nominal,Departamento de residencia (exterior agrupado en EXTRANJERO),estu_depto_reside,34 categorías,0.1,0.0
+inst_cod,Categórica nominal,Código de la institución de educación superior,inst_cod_institucion,266 categorías,,0.0
+inst_nombre,Categórica nominal,Nombre de la institución,inst_nombre_institucion,269 categorías,,0.0
+inst_caracter,Categórica nominal,Carácter académico de la institución,inst_caracter_academico,"INSTITUCIÓN TECNOLÓGICA, INSTITUCIÓN UNIVERSITARIA, TÉCNICA PROFESIONAL, UNIVERSIDAD",,0.0
+inst_origen,Categórica nominal,Naturaleza jurídica (oficial / no oficial),inst_origen,6 categorías,0.0,0.0
+sector,Categórica nominal,Oficial / No oficial / Régimen especial (derivada de inst_origen),derivada,"No oficial, Oficial, Régimen especial",,0.0
+depto_inst,Categórica nominal,Departamento de la institución,estu_inst_departamento,26 categorías,,0.0
+region_inst,Categórica nominal,"Región natural de la institución (mapeo propio, D-06)",derivada,"Amazonía, Andina, Caribe, Orinoquía, Pacífica",,0.0
+nucleo,Categórica nominal,Núcleo básico del conocimiento del programa,estu_nucleo_pregrado,56 categorías,,0.0
+programa,Categórica nominal,Programa académico,estu_prgm_academico,988 categorías,,0.0
+modalidad,Categórica nominal,"Modalidad del programa: presencial, distancia, distancia virtual",estu_metodo_prgm,"DISTANCIA, DISTANCIA VIRTUAL, PRESENCIAL",,0.0
+matricula,Categórica ordinal,Valor de la matrícula semestral (rangos),estu_valormatriculauniversidad,8 categorías,0.96,0.85
+matricula_ord,Numérica ordinal,Matrícula codificada 0 (no pagó) a 7 (más de 7 millones),derivada,0 – 7,,0.85
+horas_trabajo,Categórica ordinal,Horas semanales que trabaja el estudiante,estu_horassemanatrabaja,"0, Entre 11 y 20 horas, Entre 21 y 30 horas, Menos de 10 horas, Más de 30 horas",3.93,1.73
+horas_trabajo_ord,Numérica ordinal,Horas de trabajo codificadas 0 a 4,derivada,0 – 4,,1.73
+pago_beca,Categórica binaria,Pagó la matrícula con beca,estu_pagomatriculabeca,"No, Si",0.98,0.87
+pago_credito,Categórica binaria,Pagó la matrícula con crédito,estu_pagomatriculacredito,"No, Si",0.98,0.87
+pago_padres,Categórica binaria,Pagó la matrícula con recursos de los padres,estu_pagomatriculapadres,"No, Si",0.97,0.86
+pago_propio,Categórica binaria,Pagó la matrícula con recursos propios,estu_pagomatriculapropio,"No, Si",0.98,0.87
+estrato,Categórica ordinal,Estrato de la vivienda (Estrato 1-6 o Sin Estrato),fami_estratovivienda,7 categorías,3.06,0.8
+estrato_num,Numérica ordinal,Estrato 1-6 (Sin Estrato = nulo),derivada,1 – 6,,1.19
+educ_madre,Categórica ordinal,Nivel educativo de la madre,fami_educacionmadre,12 categorías,2.5,0.23
+educ_madre_ord,Numérica ordinal,Educación de la madre codificada 0-9 (No sabe / No aplica = nulo),derivada,0 – 9,,0.83
+educ_padre,Categórica ordinal,Nivel educativo del padre,fami_educacionpadre,12 categorías,2.39,0.12
+educ_padre_ord,Numérica ordinal,Educación del padre codificada 0-9,derivada,0 – 9,,4.27
+tiene_automovil,Binaria 0/1,El hogar tiene automóvil,fami_tieneautomovil,"0, 1",6.85,4.68
+tiene_lavadora,Binaria 0/1,El hogar tiene lavadora,fami_tienelavadora,"0, 1",5.74,3.54
+tiene_computador,Binaria 0/1,El hogar tiene computador,fami_tienecomputador,"0, 1",5.35,3.14
+tiene_internet,Binaria 0/1,El hogar tiene internet,fami_tieneinternet,"0, 1",3.14,0.88
+pt_razonamiento,Numérica continua,Puntaje módulo Razonamiento cuantitativo (0 = no calificado -> nulo),mod_razona_cuantitat_punt,"61 – 300  (media 145,8)",0.0,0.01
+pt_lectura,Numérica continua,Puntaje módulo Lectura crítica,mod_lectura_critica_punt,"54 – 300  (media 149,5)",0.0,0.02
+pt_ciudadanas,Numérica continua,Puntaje módulo Competencias ciudadanas,mod_competen_ciudada_punt,"57 – 300  (media 147,4)",0.0,0.04
+pt_ingles,Numérica continua,Puntaje módulo Inglés,mod_ingles_punt,"76 – 300  (media 156,5)",0.01,0.07
+pt_escrita,Numérica continua,Puntaje módulo Comunicación escrita (0 = no calificado -> nulo),mod_comuni_escrita_punt,"47 – 300  (media 141,9)",0.0,5.48
+ingles_nivel,Categórica ordinal,"Nivel de desempeño en inglés (-A1, A1, A2, B1, B2)",mod_ingles_desem,"-A1, A1, A2, B1, B2",0.01,0.01
+escrita_nivel,Categórica ordinal,Nivel de desempeño en comunicación escrita (1-4),mod_comuni_escrita_desem,"1, 2, 3, 4",5.5,5.48
+n_modulos_validos,Numérica discreta,Cantidad de módulos genéricos con puntaje válido (0-5),derivada,0 – 5,,0.0
+puntaje_global,Numérica continua,VARIABLE OBJETIVO: promedio de los 5 módulos (solo si los 5 son válidos),derivada,"73,2 – 278,2  (media 148,8)",,5.59
+nivel_global,Categórica ordinal,Cuartil del puntaje global (Q1 bajo ... Q4 alto),derivada,"Q1 (bajo), Q2, Q3, Q4 (alto)",,5.59

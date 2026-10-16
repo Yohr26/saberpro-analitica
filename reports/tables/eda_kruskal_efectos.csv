@@ -1,0 +1,17 @@
+﻿variable,n,H_kruskal,p_valor,epsilon2,magnitud
+Valor de matrícula,655138,88590.9,0.0,0.1352,mediana
+Educación de la madre,660712,65251.3,0.0,0.0988,mediana
+Carácter académico,660712,62047.2,0.0,0.0939,mediana
+Educación del padre,660712,59968.0,0.0,0.0908,mediana
+Estrato,660712,57493.9,0.0,0.087,mediana
+Modalidad,660712,52874.2,0.0,0.08,mediana
+Horas de trabajo,649311,17548.6,0.0,0.027,pequeña
+Tiene internet,654900,16059.3,0.0,0.0245,pequeña
+Tiene computador,639925,15381.1,0.0,0.024,pequeña
+Naturaleza jurídica,660712,9018.0,0.0,0.0136,pequeña
+Género,660630,8355.9,0.0,0.0126,pequeña
+Región de la institución,660712,5586.3,0.0,0.0085,insignificante
+Año,660712,4261.0,0.0,0.0064,insignificante
+Pagó con beca,654978,4102.3,0.0,0.0063,insignificante
+Pagó con crédito,654998,2254.0,0.0,0.0034,insignificante
+Sector,660712,1154.6,1.874760314921667e-251,0.0017,insignificante

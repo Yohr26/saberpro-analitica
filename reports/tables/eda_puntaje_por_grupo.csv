@@ -1,0 +1,79 @@
+﻿variable,categoria,count,mean,median,std
+Región de la institución,Amazonía,2915,138.02,137.6,19.52
+Región de la institución,Andina,490406,150.08,149.0,24.76
+Región de la institución,Caribe,100379,144.12,142.8,23.21
+Región de la institución,Orinoquía,2932,147.22,147.6,20.05
+Región de la institución,Pacífica,64080,147.27,146.6,25.18
+Sector,No oficial,439205,148.22,146.8,24.7
+Sector,Oficial,220851,150.08,149.6,24.49
+Sector,Régimen especial,656,145.46,145.6,20.3
+Naturaleza jurídica,NO OFICIAL - CORPORACIÓN,226148,145.22,143.6,23.93
+Naturaleza jurídica,NO OFICIAL - FUNDACIÓN,213057,151.4,150.4,25.11
+Naturaleza jurídica,OFICIAL DEPARTAMENTAL,99181,149.49,149.2,23.49
+Naturaleza jurídica,OFICIAL MUNICIPAL,14194,154.67,155.8,23.42
+Naturaleza jurídica,OFICIAL NACIONAL,107476,150.02,149.2,25.45
+Naturaleza jurídica,REGIMEN ESPECIAL,656,145.46,145.6,20.3
+Carácter académico,INSTITUCIÓN TECNOLÓGICA,14232,136.04,135.6,19.46
+Carácter académico,INSTITUCIÓN UNIVERSITARIA,236970,140.09,139.4,20.62
+Carácter académico,TÉCNICA PROFESIONAL,12183,135.24,134.6,19.76
+Carácter académico,UNIVERSIDAD,397327,154.93,154.8,25.23
+Género,Hombre,271283,152.22,151.6,25.56
+Género,Mujer,389347,146.48,145.2,23.7
+Estrato,Estrato 1,125134,139.28,138.2,21.89
+Estrato,Estrato 2,237074,145.8,145.0,22.6
+Estrato,Estrato 3,202020,151.4,151.0,23.77
+Estrato,Estrato 4,60653,161.09,161.8,26.02
+Estrato,Estrato 5,21615,167.24,168.6,27.05
+Estrato,Estrato 6,11728,172.89,175.0,27.73
+Estrato,Sin Estrato,2488,139.57,138.2,27.22
+Modalidad,DISTANCIA,97024,134.78,134.0,19.11
+Modalidad,DISTANCIA VIRTUAL,48671,138.93,138.0,20.74
+Modalidad,PRESENCIAL,515017,152.42,151.8,24.7
+Educación de la madre,Educación profesional completa,87694,158.73,159.2,26.15
+Educación de la madre,Educación profesional incompleta,20020,157.0,157.8,25.12
+Educación de la madre,Ninguno,10009,131.2,129.8,19.86
+Educación de la madre,No Aplica,1334,142.57,141.7,24.78
+Educación de la madre,No sabe,2657,149.01,149.0,25.25
+Educación de la madre,Postgrado,49197,164.95,165.8,26.63
+Educación de la madre,Primaria completa,54773,140.99,140.2,21.55
+Educación de la madre,Primaria incompleta,95744,138.56,137.4,20.84
+Educación de la madre,Secundaria (Bachillerato) completa,141622,147.66,147.0,22.93
+Educación de la madre,Secundaria (Bachillerato) incompleta,76480,144.81,144.0,21.94
+Educación de la madre,Técnica o tecnológica completa,97164,151.56,151.2,23.61
+Educación de la madre,Técnica o tecnológica incompleta,24018,148.28,147.8,23.52
+Educación del padre,Educación profesional completa,82426,157.91,158.2,26.08
+Educación del padre,Educación profesional incompleta,27170,155.4,155.6,24.7
+Educación del padre,Ninguno,14896,134.54,133.2,20.8
+Educación del padre,No Aplica,8593,149.36,149.0,23.36
+Educación del padre,No sabe,18875,152.87,152.4,23.41
+Educación del padre,Postgrado,45408,166.51,167.6,26.81
+Educación del padre,Primaria completa,55073,141.71,140.8,22.0
+Educación del padre,Primaria incompleta,126574,140.3,139.4,21.29
+Educación del padre,Secundaria (Bachillerato) completa,129700,148.25,147.6,23.18
+Educación del padre,Secundaria (Bachillerato) incompleta,66775,145.55,144.8,22.69
+Educación del padre,Técnica o tecnológica completa,65818,151.75,151.4,23.59
+Educación del padre,Técnica o tecnológica incompleta,19404,147.95,147.8,23.72
+Valor de matrícula,Entre 1 millón y menos de 2.5 millones,185567,140.26,138.8,21.89
+Valor de matrícula,Entre 2.5 millones y menos de 4 millones,115607,144.58,144.2,21.54
+Valor de matrícula,Entre 4 millones y menos de 5.5 millones,67894,151.58,151.8,22.05
+Valor de matrícula,Entre 5.5 millones y menos de 7 millones,38748,156.94,157.4,22.62
+Valor de matrícula,Entre 500 mil y menos de 1 millón,64257,146.2,145.4,23.47
+Valor de matrícula,Menos de 500 mil,68641,150.09,150.4,24.44
+Valor de matrícula,Más de 7 millones,73668,171.46,172.8,24.21
+Valor de matrícula,No pagó matrícula,40756,147.94,147.4,24.55
+Horas de trabajo,0,105662,158.29,158.4,25.68
+Horas de trabajo,Entre 11 y 20 horas,114901,146.77,145.4,24.59
+Horas de trabajo,Entre 21 y 30 horas,84939,147.65,146.6,23.77
+Horas de trabajo,Menos de 10 horas,95358,147.44,145.8,26.66
+Horas de trabajo,Más de 30 horas,248451,146.74,145.8,22.79
+Año,2020,232998,151.18,150.4,24.57
+Año,2021,234358,146.58,145.2,24.85
+Año,2022,193356,148.76,147.6,24.22
+Tiene internet,0.0,59415,136.71,135.6,21.27
+Tiene internet,1.0,595485,150.06,149.0,24.64
+Tiene computador,0.0,55800,136.82,135.6,21.09
+Tiene computador,1.0,584125,150.23,149.2,24.65
+Pagó con beca,No,499800,147.65,146.6,24.04
+Pagó con beca,Si,155178,152.44,151.6,25.99
+Pagó con crédito,No,452125,149.78,148.8,24.95
+Pagó con crédito,Si,202873,146.56,145.4,23.65

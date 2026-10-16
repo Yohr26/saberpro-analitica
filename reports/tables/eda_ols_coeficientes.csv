@@ -1,0 +1,29 @@
+﻿termino,coef,ic95_inf,ic95_sup,p_valor
+Intercept,149.6487,149.2733,150.0241,0.0
+estrato[T.Estrato 2],3.3425,3.1883,3.4967,0.0
+estrato[T.Estrato 3],5.7326,5.5593,5.9059,0.0
+estrato[T.Estrato 4],9.6184,9.3636,9.8732,0.0
+estrato[T.Estrato 5],12.8706,12.4854,13.2558,0.0
+estrato[T.Estrato 6],16.3228,15.8023,16.8432,0.0
+estrato[T.Sin Estrato],-1.2618,-2.29,-0.2337,0.0162
+genero[T.Hombre],3.9597,3.8481,4.0713,0.0
+sector[T.No oficial],-8.3604,-8.5364,-8.1843,0.0
+sector[T.Régimen especial],-3.5499,-5.0678,-2.032,0.0
+inst_caracter[T.INSTITUCIÓN TECNOLÓGICA],-10.9629,-11.3166,-10.6093,0.0
+inst_caracter[T.INSTITUCIÓN UNIVERSITARIA],-6.9007,-7.0337,-6.7676,0.0
+inst_caracter[T.TÉCNICA PROFESIONAL],-12.7016,-13.0861,-12.3172,0.0
+region_inst[T.Amazonía],-10.6649,-11.3882,-9.9417,0.0
+region_inst[T.Caribe],-6.9891,-7.1492,-6.8289,0.0
+region_inst[T.Orinoquía],-3.2642,-3.9892,-2.5393,0.0
+region_inst[T.Pacífica],-4.9718,-5.1657,-4.7778,0.0
+modalidad[T.DISTANCIA],-7.4506,-7.6121,-7.2891,0.0
+modalidad[T.DISTANCIA VIRTUAL],-1.6956,-1.9161,-1.4751,0.0
+anio[T.2021],-3.2874,-3.4147,-3.16,0.0
+anio[T.2022],-1.75,-1.8817,-1.6183,0.0
+educ_madre_ord,0.597,0.5686,0.6255,0.0
+educ_padre_ord,0.7092,0.6827,0.7358,0.0
+tiene_internet,3.6172,3.4145,3.8199,0.0
+tiene_computador,4.1542,3.9533,4.355,0.0
+horas_trabajo_ord,-0.224,-0.2615,-0.1865,0.0
+matricula_ord,1.9295,1.8831,1.9759,0.0
+edad,-0.4944,-0.504,-0.4848,0.0

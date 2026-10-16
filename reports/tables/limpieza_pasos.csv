@@ -1,0 +1,7 @@
+﻿paso,descripcion,registros_antes,registros_despues,afectados
+D-01,Eliminar registros duplicados por estu_consecutivo,721129,716103,5026
+D-02,"Eliminar registros sin NINGUN dato de contexto familiar {'20212': 5235, '20225': 4373, '20203': 3557, '20222': 2281, '20223': 673, '20213': 94, '20202': 24, '20226': 23}",716103,699843,16260
+D-03,Agrupar ciudades del exterior de estu_depto_reside en 'EXTRANJERO'; corregir 'DISTANCIA VITUAL',699843,699843,19
+D-04,"Puntaje 0 -> NaN (no calificado). Ceros por modulo: {'pt_razonamiento': 62, 'pt_lectura': 120, 'pt_ciudadanas': 313, 'pt_ingles': 441, 'pt_escrita': 38352}. Fuera de [0,300]: 0",699843,699843,39288
+D-05,"Edad fuera de [16, 70] o fecha de nacimiento invalida -> NaN (se descarta la fecha)",699843,699843,329
+FIN,Dataset limpio (sin imputar),721129,699843,21286

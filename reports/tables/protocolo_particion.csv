@@ -1,0 +1,4 @@
+﻿conjunto,n,pct_bajo_desempeno
+Entrenamiento (2020-2021),467356.0,24.8
+Prueba (2022),193356.0,24.4
+Umbral de bajo desempeño (P25 del entrenamiento),,131.0

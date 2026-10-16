@@ -1,0 +1,12 @@
+﻿modulo,etapa,n_validos,media,desv,min,max,ceros,lim_inf_iqr,lim_sup_iqr,atipicos_iqr
+Razonamiento cuantitativo,antes (crudo),699843,145.83,32.71,0.0,300.0,62,53.0,237.0,1281
+Razonamiento cuantitativo,despues (ceros->NaN),699781,145.85,32.68,61.0,300.0,0,53.0,237.0,1219
+Lectura crítica,antes (crudo),699843,149.45,30.51,0.0,300.0,120,59.5,239.5,517
+Lectura crítica,despues (ceros->NaN),699723,149.47,30.45,54.0,300.0,0,59.5,239.5,397
+Competencias ciudadanas,antes (crudo),699843,147.33,33.07,0.0,300.0,313,53.5,241.5,1343
+Competencias ciudadanas,despues (ceros->NaN),699530,147.4,32.93,57.0,300.0,0,53.5,241.5,1030
+Inglés,antes (crudo),699792,156.36,31.66,0.0,300.0,441,68.5,240.5,5459
+Inglés,despues (ceros->NaN),699351,156.45,31.43,76.0,300.0,0,68.5,240.5,5018
+Comunicación escrita,antes (crudo),699842,134.1,45.89,0.0,300.0,38352,57.0,225.0,47008
+Comunicación escrita,despues (ceros->NaN),661490,141.87,33.54,47.0,300.0,0,63.0,223.0,9024
+Puntaje global,despues (ceros->NaN),660712,148.84,24.64,73.2,278.2,0,79.9,216.7,4096
