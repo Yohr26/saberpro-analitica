@@ -1,0 +1,27 @@
+﻿esquema,modelo,tarea,RMSE_media,RMSE_sd,MAE_media,R2_media,AUC_media,AUC_sd,recall25_media,precision25_media,seg_media
+conocidas,B0. Media global,linea_base,24.817,0.0425,19.9985,-0.0,0.5,0.0,0.2063,0.2044,0.0
+conocidas,B1. Media por estrato,linea_base,23.5776,0.0333,18.9372,0.0974,0.6176,0.0015,0.3454,0.3422,0.0
+conocidas,B3. Media por institución,linea_base,20.4166,0.0281,16.2336,0.3232,0.726,0.0015,0.434,0.4299,0.0
+conocidas,HistGradientBoosting,regresion,18.5587,0.0439,14.6308,0.4408,0.7872,0.0019,0.5198,0.5149,78.0
+conocidas,HistGradientBoosting (clasif.),clasificacion,,,,,0.7799,0.0019,0.5102,0.5055,10.26
+conocidas,LightGBM,regresion,18.521,0.0481,14.5991,0.443,0.7883,0.002,0.521,0.5162,61.16
+conocidas,LightGBM (clasif.),clasificacion,,,,,0.7803,0.0021,0.511,0.5062,4.98
+conocidas,RandomForest,regresion,18.8229,0.0239,14.8618,0.4247,0.7806,0.0017,0.5116,0.5068,24.46
+conocidas,RandomForest (clasif.),clasificacion,,,,,0.7825,0.0021,0.5134,0.5086,28.14
+conocidas,Regresión logística,clasificacion,,,,,0.7598,0.0015,0.4868,0.4823,27.78
+conocidas,Ridge,regresion,19.363,0.027,15.3207,0.3912,0.7629,0.0017,0.4895,0.4849,51.36
+conocidas,XGBoost,regresion,18.511,0.0252,14.5934,0.4436,0.7891,0.0016,0.523,0.5181,25.1
+conocidas,XGBoost (clasif.),clasificacion,,,,,0.7902,0.0016,0.5242,0.5193,25.16
+grupos,B0. Media global,linea_base,24.9036,0.9583,20.0865,-0.0234,0.5,0.0,0.2014,0.2012,0.0
+grupos,B1. Media por estrato,linea_base,23.6628,0.8855,19.0194,0.0755,0.6141,0.019,0.3407,0.3354,0.0
+grupos,B3. Media por institución,linea_base,24.9036,0.9583,20.0865,-0.0234,0.5,0.0,0.2014,0.2012,0.0
+grupos,HistGradientBoosting,regresion,20.8796,1.0794,16.6508,0.2812,0.7466,0.0088,0.4787,0.4712,104.06
+grupos,HistGradientBoosting (clasif.),clasificacion,,,,,0.7167,0.0095,0.4497,0.4422,12.86
+grupos,LightGBM,regresion,20.7153,1.033,16.5207,0.2924,0.7517,0.008,0.4841,0.4765,70.74
+grupos,LightGBM (clasif.),clasificacion,,,,,0.7197,0.0095,0.4537,0.4463,10.58
+grupos,RandomForest,regresion,21.3965,1.0778,17.121,0.2452,0.7399,0.0089,0.4666,0.4594,33.38
+grupos,RandomForest (clasif.),clasificacion,,,,,0.7375,0.0064,0.4662,0.4592,34.18
+grupos,Regresión logística,clasificacion,,,,,0.7015,0.0202,0.4332,0.4285,34.92
+grupos,Ridge,regresion,21.8986,1.0359,17.5422,0.2091,0.7162,0.0135,0.4453,0.4388,66.94
+grupos,XGBoost,regresion,20.5707,0.9372,16.3932,0.3021,0.7558,0.0095,0.4878,0.4797,41.96
+grupos,XGBoost (clasif.),clasificacion,,,,,0.7525,0.0081,0.4848,0.4769,43.0

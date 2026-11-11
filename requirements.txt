@@ -9,3 +9,7 @@ pyarrow>=15
 nbformat
 nbconvert
 ipykernel
+lightgbm>=4.0
+xgboost>=2.0
+shap>=0.45
+joblib

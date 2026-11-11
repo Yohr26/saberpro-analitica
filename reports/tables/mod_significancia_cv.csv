@@ -1,0 +1,10 @@
+﻿esquema,comparacion,dif_RMSE_media,dif_RMSE_sd,t_pareada,p_t_pareada,t_Nadeau_Bengio,p_Nadeau_Bengio,p_Wilcoxon,pliegues_a_favor,n_pliegues,p_Nadeau_Bengio_Holm
+conocidas,RandomForest vs B3. Media por institución,-1.59365,0.01841,-193.55889,0.0,-129.03888,0.0,0.0625,5,5,0.0
+conocidas,HistGradientBoosting vs B3. Media por institución,-1.85782,0.03441,-120.71185,0.0,-80.47433,0.0,0.0625,5,5,0.0
+conocidas,LightGBM vs B3. Media por institución,-1.89557,0.0422,-100.43356,0.0,-66.9555,0.0,0.0625,5,5,0.0
+conocidas,XGBoost vs B3. Media por institución,-1.90559,0.02725,-156.39612,0.0,-104.26377,0.0,0.0625,5,5,0.0
+conocidas,Ridge vs B3. Media por institución,-1.05355,0.01995,-118.0774,0.0,-78.71804,0.0,0.0625,5,5,0.0
+conocidas,XGBoost vs RandomForest,-0.31194,0.00984,-70.91483,0.0,-47.27642,0.0,0.0625,5,5,0.0
+conocidas,XGBoost vs HistGradientBoosting,-0.04776,0.0379,-2.81818,0.04792,-1.87878,0.13347,0.0625,5,5,0.26694
+conocidas,XGBoost vs LightGBM,-0.01002,0.04517,-0.49615,0.64582,-0.33076,0.75742,0.625,1,5,0.75742
+conocidas,XGBoost vs Ridge,-0.85204,0.01695,-112.37367,0.0,-74.91556,0.0,0.0625,5,5,0.0

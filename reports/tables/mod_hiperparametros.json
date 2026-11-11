@@ -1,0 +1,118 @@
+{
+ "Ridge": {
+  "params": {
+   "alpha": 77.26718477963419
+  },
+  "selector": "lasso_suave",
+  "objetivo_cv": 19.312782783042483,
+  "tarea": "reg"
+ },
+ "RandomForest": {
+  "params": {
+   "min_samples_leaf": 20,
+   "max_features": 0.3,
+   "max_depth": 16
+  },
+  "selector": "ninguno",
+  "objetivo_cv": 18.95368045676297,
+  "tarea": "reg"
+ },
+ "HistGradientBoosting": {
+  "params": {
+   "min_samples_leaf": 200,
+   "max_leaf_nodes": 31,
+   "max_iter": 500,
+   "learning_rate": 0.06,
+   "l2_regularization": 0.0
+  },
+  "selector": "lasso_suave",
+  "objetivo_cv": 18.645903575950463,
+  "tarea": "reg"
+ },
+ "LightGBM": {
+  "params": {
+   "subsample": 0.7,
+   "reg_lambda": 5.0,
+   "num_leaves": 63,
+   "n_estimators": 300,
+   "min_child_samples": 200,
+   "learning_rate": 0.06,
+   "colsample_bytree": 0.8
+  },
+  "selector": "lasso_suave",
+  "objetivo_cv": 18.61594359210457,
+  "tarea": "reg"
+ },
+ "XGBoost": {
+  "params": {
+   "subsample": 0.9,
+   "reg_lambda": 10.0,
+   "n_estimators": 500,
+   "min_child_weight": 20,
+   "max_depth": 6,
+   "learning_rate": 0.06,
+   "colsample_bytree": 0.5
+  },
+  "selector": "ninguno",
+  "objetivo_cv": 18.606942248287606,
+  "tarea": "reg"
+ },
+ "Regresión logística": {
+  "params": {
+   "C": 0.13292918943162169
+  },
+  "selector": "ninguno",
+  "objetivo_cv": -0.7589739828797096,
+  "tarea": "clf"
+ },
+ "RandomForest (clasif.)": {
+  "params": {
+   "min_samples_leaf": 20,
+   "max_features": 0.3,
+   "max_depth": 16
+  },
+  "selector": "ninguno",
+  "objetivo_cv": -0.7767518028334687,
+  "tarea": "clf"
+ },
+ "HistGradientBoosting (clasif.)": {
+  "params": {
+   "min_samples_leaf": 200,
+   "max_leaf_nodes": 15,
+   "max_iter": 500,
+   "learning_rate": 0.1,
+   "l2_regularization": 1.0
+  },
+  "selector": "lasso_suave",
+  "objetivo_cv": -0.7727865468555467,
+  "tarea": "clf"
+ },
+ "LightGBM (clasif.)": {
+  "params": {
+   "subsample": 0.7,
+   "reg_lambda": 20.0,
+   "num_leaves": 31,
+   "n_estimators": 300,
+   "min_child_samples": 200,
+   "learning_rate": 0.06,
+   "colsample_bytree": 0.8
+  },
+  "selector": "lasso_suave",
+  "objetivo_cv": -0.774897674283772,
+  "tarea": "clf"
+ },
+ "XGBoost (clasif.)": {
+  "params": {
+   "subsample": 0.9,
+   "reg_lambda": 10.0,
+   "n_estimators": 500,
+   "min_child_weight": 20,
+   "max_depth": 6,
+   "learning_rate": 0.06,
+   "colsample_bytree": 0.5
+  },
+  "selector": "ninguno",
+  "objetivo_cv": -0.7832682935226117,
+  "tarea": "clf"
+ }
+}

@@ -1,0 +1,91 @@
+﻿variable_transformada,variable_original,retenida
+oh__estrato_Estrato 1,estrato,True
+oh__estrato_Estrato 2,estrato,True
+oh__estrato_Estrato 3,estrato,True
+oh__estrato_Estrato 4,estrato,True
+oh__estrato_Estrato 5,estrato,True
+oh__estrato_Estrato 6,estrato,True
+oh__estrato_Sin Estrato,estrato,True
+oh__educ_madre_Educación profesional completa,educ_madre,True
+oh__educ_madre_Educación profesional incompleta,educ_madre,True
+oh__educ_madre_Ninguno,educ_madre,True
+oh__educ_madre_No Aplica,educ_madre,True
+oh__educ_madre_No sabe,educ_madre,True
+oh__educ_madre_Postgrado,educ_madre,True
+oh__educ_madre_Primaria completa,educ_madre,True
+oh__educ_madre_Primaria incompleta,educ_madre,True
+oh__educ_madre_Secundaria (Bachillerato) completa,educ_madre,True
+oh__educ_madre_Secundaria (Bachillerato) incompleta,educ_madre,True
+oh__educ_madre_Técnica o tecnológica completa,educ_madre,True
+oh__educ_madre_Técnica o tecnológica incompleta,educ_madre,True
+oh__educ_padre_Educación profesional completa,educ_padre,True
+oh__educ_padre_Educación profesional incompleta,educ_padre,True
+oh__educ_padre_Ninguno,educ_padre,True
+oh__educ_padre_No Aplica,educ_padre,True
+oh__educ_padre_No sabe,educ_padre,True
+oh__educ_padre_Postgrado,educ_padre,True
+oh__educ_padre_Primaria completa,educ_padre,True
+oh__educ_padre_Primaria incompleta,educ_padre,True
+oh__educ_padre_Secundaria (Bachillerato) completa,educ_padre,True
+oh__educ_padre_Secundaria (Bachillerato) incompleta,educ_padre,True
+oh__educ_padre_Técnica o tecnológica completa,educ_padre,True
+oh__educ_padre_Técnica o tecnológica incompleta,educ_padre,True
+oh__genero_F,genero,True
+oh__genero_M,genero,True
+oh__genero_nan,genero,True
+oh__inst_caracter_INSTITUCIÓN TECNOLÓGICA,inst_caracter,True
+oh__inst_caracter_INSTITUCIÓN UNIVERSITARIA,inst_caracter,True
+oh__inst_caracter_TÉCNICA PROFESIONAL,inst_caracter,True
+oh__inst_caracter_UNIVERSIDAD,inst_caracter,True
+oh__sector_No oficial,sector,True
+oh__sector_Oficial,sector,True
+oh__sector_Régimen especial,sector,True
+oh__inst_origen_NO OFICIAL - CORPORACIÓN,inst_origen,True
+oh__inst_origen_NO OFICIAL - FUNDACIÓN,inst_origen,True
+oh__inst_origen_OFICIAL DEPARTAMENTAL,inst_origen,True
+oh__inst_origen_OFICIAL MUNICIPAL,inst_origen,True
+oh__inst_origen_OFICIAL NACIONAL,inst_origen,True
+oh__inst_origen_REGIMEN ESPECIAL,inst_origen,True
+oh__region_inst_Amazonía,region_inst,True
+oh__region_inst_Andina,region_inst,True
+oh__region_inst_Caribe,region_inst,True
+oh__region_inst_Orinoquía,region_inst,True
+oh__region_inst_Pacífica,region_inst,True
+oh__modalidad_DISTANCIA,modalidad,True
+oh__modalidad_DISTANCIA VIRTUAL,modalidad,True
+oh__modalidad_PRESENCIAL,modalidad,True
+oh__pago_beca_No,pago_beca,True
+oh__pago_beca_Si,pago_beca,True
+oh__pago_beca_nan,pago_beca,True
+oh__pago_credito_No,pago_credito,True
+oh__pago_credito_Si,pago_credito,True
+oh__pago_credito_nan,pago_credito,True
+oh__pago_padres_No,pago_padres,True
+oh__pago_padres_Si,pago_padres,True
+oh__pago_padres_nan,pago_padres,True
+oh__pago_propio_No,pago_propio,True
+oh__pago_propio_Si,pago_propio,True
+oh__pago_propio_nan,pago_propio,True
+te__inst_cod,inst_cod,True
+te__nucleo,nucleo,True
+te__depto_inst,depto_inst,True
+num__edad,edad,True
+num__matricula_ord,matricula_ord,True
+num__horas_trabajo_ord,horas_trabajo_ord,True
+num__tiene_automovil,tiene_automovil,True
+num__tiene_lavadora,tiene_lavadora,True
+num__tiene_computador,tiene_computador,True
+num__tiene_internet,tiene_internet,True
+num__estrato_num,estrato,True
+num__educ_madre_ord,educ_madre,True
+num__educ_padre_ord,educ_padre,True
+num__missingindicator_edad,edad,True
+num__missingindicator_matricula_ord,matricula_ord,True
+num__missingindicator_horas_trabajo_ord,horas_trabajo_ord,True
+num__missingindicator_tiene_automovil,tiene_automovil,True
+num__missingindicator_tiene_lavadora,tiene_lavadora,True
+num__missingindicator_tiene_computador,tiene_computador,True
+num__missingindicator_tiene_internet,tiene_internet,True
+num__missingindicator_estrato_num,estrato,True
+num__missingindicator_educ_madre_ord,educ_madre,True
+num__missingindicator_educ_padre_ord,educ_padre,True

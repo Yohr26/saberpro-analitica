@@ -1,0 +1,91 @@
+﻿variable,variable_original,mean_abs_shap
+te__inst_cod,Institución (código),6.306
+num__edad,Edad,3.3025
+te__nucleo,Núcleo del programa,2.9172
+num__horas_trabajo_ord,Horas de trabajo,1.4405
+num__matricula_ord,Valor de matrícula,1.2285
+num__estrato_num,Estrato,1.2253
+oh__inst_caracter_UNIVERSIDAD,Carácter académico,1.1248
+oh__sector_No oficial,Sector,0.8679
+num__educ_padre_ord,Educación del padre,0.8424
+te__depto_inst,Departamento de la institución,0.8375
+num__educ_madre_ord,Educación de la madre,0.8217
+oh__genero_F,Género,0.7613
+oh__modalidad_PRESENCIAL,Modalidad,0.754
+oh__pago_beca_No,Pago con beca,0.6721
+oh__genero_M,Género,0.6503
+oh__modalidad_DISTANCIA,Modalidad,0.5708
+oh__pago_beca_Si,Pago con beca,0.5681
+oh__estrato_Estrato 1,Estrato,0.5408
+num__tiene_internet,Tiene internet,0.4755
+oh__pago_padres_Si,Pago con recursos de padres,0.4687
+num__tiene_computador,Tiene computador,0.4615
+num__tiene_lavadora,Tiene lavadora,0.4537
+oh__inst_origen_NO OFICIAL - CORPORACIÓN,Naturaleza jurídica,0.4421
+oh__sector_Oficial,Sector,0.4326
+oh__inst_caracter_INSTITUCIÓN UNIVERSITARIA,Carácter académico,0.3261
+oh__pago_padres_No,Pago con recursos de padres,0.2678
+oh__region_inst_Caribe,Región de la institución,0.2458
+oh__region_inst_Andina,Región de la institución,0.2056
+oh__pago_propio_Si,Pago con recursos propios,0.1953
+num__tiene_automovil,Tiene automóvil,0.1777
+num__missingindicator_tiene_lavadora,Tiene lavadora,0.1717
+num__missingindicator_tiene_automovil,Tiene automóvil,0.1685
+oh__inst_origen_OFICIAL DEPARTAMENTAL,Naturaleza jurídica,0.1604
+oh__pago_credito_Si,Pago con crédito,0.1412
+oh__pago_propio_No,Pago con recursos propios,0.1335
+oh__educ_padre_Postgrado,Educación del padre,0.1318
+oh__educ_madre_Postgrado,Educación de la madre,0.1208
+num__missingindicator_educ_padre_ord,Educación del padre,0.1073
+oh__educ_madre_Educación profesional completa,Educación de la madre,0.1011
+oh__educ_padre_No sabe,Educación del padre,0.0921
+oh__region_inst_Pacífica,Región de la institución,0.0874
+oh__pago_credito_No,Pago con crédito,0.0874
+num__missingindicator_tiene_computador,Tiene computador,0.0837
+oh__inst_origen_OFICIAL NACIONAL,Naturaleza jurídica,0.0812
+num__missingindicator_horas_trabajo_ord,Horas de trabajo,0.0741
+oh__educ_padre_Educación profesional completa,Educación del padre,0.072
+oh__modalidad_DISTANCIA VIRTUAL,Modalidad,0.0714
+oh__inst_origen_NO OFICIAL - FUNDACIÓN,Naturaleza jurídica,0.0687
+oh__educ_padre_Educación profesional incompleta,Educación del padre,0.0662
+oh__educ_padre_Secundaria (Bachillerato) completa,Educación del padre,0.0612
+oh__estrato_Estrato 2,Estrato,0.0532
+oh__educ_padre_Ninguno,Educación del padre,0.0462
+oh__educ_madre_Ninguno,Educación de la madre,0.0451
+oh__educ_madre_Secundaria (Bachillerato) completa,Educación de la madre,0.0426
+oh__educ_madre_Técnica o tecnológica completa,Educación de la madre,0.0415
+oh__educ_padre_Técnica o tecnológica incompleta,Educación del padre,0.0337
+oh__educ_madre_Secundaria (Bachillerato) incompleta,Educación de la madre,0.0332
+oh__estrato_Estrato 3,Estrato,0.033
+oh__educ_madre_Primaria completa,Educación de la madre,0.0297
+oh__educ_padre_Secundaria (Bachillerato) incompleta,Educación del padre,0.0275
+num__missingindicator_tiene_internet,Tiene internet,0.0233
+oh__inst_caracter_TÉCNICA PROFESIONAL,Carácter académico,0.0226
+oh__educ_madre_Técnica o tecnológica incompleta,Educación de la madre,0.0168
+oh__educ_padre_Primaria incompleta,Educación del padre,0.0164
+oh__educ_padre_Técnica o tecnológica completa,Educación del padre,0.016
+oh__educ_madre_Educación profesional incompleta,Educación de la madre,0.0156
+oh__educ_padre_Primaria completa,Educación del padre,0.0154
+num__missingindicator_educ_madre_ord,Educación de la madre,0.0139
+oh__estrato_Estrato 4,Estrato,0.0128
+oh__inst_origen_OFICIAL MUNICIPAL,Naturaleza jurídica,0.0126
+oh__estrato_Sin Estrato,Estrato,0.0112
+oh__estrato_Estrato 6,Estrato,0.0101
+oh__educ_madre_Primaria incompleta,Educación de la madre,0.0096
+oh__inst_caracter_INSTITUCIÓN TECNOLÓGICA,Carácter académico,0.0079
+oh__pago_padres_nan,Pago con recursos de padres,0.0064
+num__missingindicator_estrato_num,Estrato,0.0058
+oh__educ_madre_No Aplica,Educación de la madre,0.0058
+oh__estrato_Estrato 5,Estrato,0.0053
+oh__pago_propio_nan,Pago con recursos propios,0.0045
+oh__educ_padre_No Aplica,Educación del padre,0.0037
+oh__educ_madre_No sabe,Educación de la madre,0.0035
+num__missingindicator_edad,Edad,0.0027
+oh__pago_beca_nan,Pago con beca,0.0017
+oh__pago_credito_nan,Pago con crédito,0.0014
+oh__region_inst_Amazonía,Región de la institución,0.001
+num__missingindicator_matricula_ord,Valor de matrícula,0.0008
+oh__region_inst_Orinoquía,Región de la institución,0.0008
+oh__sector_Régimen especial,Sector,0.0006
+oh__inst_origen_REGIMEN ESPECIAL,Naturaleza jurídica,0.0003
+oh__genero_nan,Género,0.0

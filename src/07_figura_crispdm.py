@@ -9,12 +9,12 @@ import config as C
 
 AZUL, GRIS, NARANJA, VERDE = "#2E5C8A", "#E9EEF4", "#D9822B", "#3C7A5A"
 fases = [
-    ("1. Comprensión\ndel negocio", "Problema, hipótesis y objetivos;\nrevisión documental", VERDE, "Entrega 1"),
-    ("2. Comprensión\nde los datos", "Ficha técnica, diccionario,\nEDA multivariado", VERDE, "Entrega 1"),
-    ("3. Preparación\nde los datos", "ETL, nulos y atípicos,\nimputación comparada", VERDE, "Entrega 1"),
-    ("4. Modelado", "Regresión y clasificación\nde bajo desempeño", NARANJA, "Entrega final"),
-    ("5. Evaluación", "Protocolo: métricas, partición,\nlíneas base, criterios de éxito", NARANJA, "Protocolo en entrega 1"),
-    ("6. Despliegue", "Tres recomendaciones de\ninnovación pedagógica", VERDE, "Entrega 1 (se refinan en la final)"),
+    ("1. Comprensión\ndel negocio", "Problema, hipótesis y objetivos;\nrevisión documental", VERDE, "Capítulos 2 a 5 y sección 9.1"),
+    ("2. Comprensión\nde los datos", "Ficha técnica, diccionario,\nEDA multivariado", VERDE, "Secciones 9.2 y 9.3"),
+    ("3. Preparación\nde los datos", "ETL, nulos y atípicos,\nimputación comparada", VERDE, "Sección 9.2"),
+    ("4. Modelado", "Pipeline sin fuga, 10 modelos,\nhiperparámetros y selección", VERDE, "Sección 9.5"),
+    ("5. Evaluación", "Prueba 2022, significancia,\nablación, SHAP y equidad", VERDE, "Sección 9.5"),
+    ("6. Despliegue", "Tres recomendaciones de\ninnovación pedagógica", VERDE, "Sección 9.4"),
 ]
 pos = [(0.8, 3.2), (4.6, 3.2), (8.4, 3.2), (8.4, 0.6), (4.6, 0.6), (0.8, 0.6)]
 fig, ax = plt.subplots(figsize=(11.5, 5.4))
@@ -35,7 +35,7 @@ ax.add_patch(FancyArrowPatch((2.3, 2.4), (2.3, 3.15), arrowstyle="-|>", mutation
                              connectionstyle="arc3,rad=0"))
 ax.text(6.1, 2.8, "Iteraciones: los hallazgos del EDA\nretroalimentan la preparación y la evaluación",
         ha="center", va="center", fontsize=8.5, style="italic", color="#555")
-ax.text(0.2, 5.15, "Verde: cubierto en esta entrega   ·   Naranja: siguiente entrega", fontsize=9, color="#333")
+ax.text(0.2, 5.15, "Las seis fases están cubiertas en el documento y en el repositorio", fontsize=9, color="#333")
 fig.tight_layout()
 fig.savefig(C.FIGURAS / "fig_00_crispdm.png", dpi=170, bbox_inches="tight")
 print("ok")

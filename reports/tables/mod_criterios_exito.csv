@@ -1,0 +1,7 @@
+﻿n,criterio,resultado,cumple
+1,"RMSE ≤ 19,4 (≥ 5 % mejor que la mejor línea base)",18.57 (B3 = 20.46; mejora 9.2 %),True
+2,"AUC-ROC ≥ 0,75",0.777 (ensamble de regresión); 0.779 (XGBoost (clasif.)),True
+3,"Recall ≥ 0,50 al alertar al 25 %",0.509 (ensamble); 0.513 (XGBoost (clasif.)),True
+4,|RMSE de validación − RMSE de prueba| ≤ 10 % del de validación,"validación 18.51 vs prueba 18.57: 0.3 % (instituciones nuevas: 20.57, 9.7 %)",True
+5,Equidad: recall por género y región a ±10 pp del global,género: máx 12.6 pp; regiones con n ≥ 1.000: máx 10.9 pp; todas las regiones: máx 25.7 pp,False
+6,Factores explicables y coherentes con el EDA,"Top-5 SHAP: Institución (código), Edad, Núcleo del programa, Estrato, Educación del padre",

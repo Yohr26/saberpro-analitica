@@ -1,0 +1,13 @@
+﻿grupo_ablacion,configuracion,n_variables_entrada,RMSE,MAE,R2,AUC,AP,recall25,precision25,delta_RMSE,delta_AUC,delta_recall25
+Referencia,Modelo completo (referencia),23,18.5732,14.5952,0.4117,0.7771,0.5205,0.5094,0.4976,0.0,0.0,0.0
+Bloque de variables,Sin: Identidad institucional (código),22,18.871,14.8456,0.3927,0.7722,0.5157,0.5067,0.495,0.2978,-0.0049,-0.0027
+Bloque de variables,Sin: Tipo y territorio de la institución,18,18.6718,14.6818,0.4055,0.7737,0.5166,0.5074,0.4957,0.0986,-0.0034,-0.002
+Bloque de variables,Sin: Modalidad y núcleo del programa,21,18.9931,14.9489,0.3848,0.7655,0.5036,0.496,0.4845,0.4199,-0.0116,-0.0134
+Bloque de variables,Sin: Estrato y educación de los padres,20,18.767,14.7407,0.3994,0.7724,0.5111,0.504,0.4924,0.1939,-0.0046,-0.0054
+Bloque de variables,Sin: Bienes y conectividad del hogar,19,18.6146,14.6315,0.4091,0.7753,0.5172,0.5085,0.4967,0.0414,-0.0018,-0.0009
+Bloque de variables,Sin: Matrícula y forma de pago,18,18.7051,14.7098,0.4034,0.7743,0.5168,0.5075,0.4957,0.132,-0.0028,-0.0019
+Bloque de variables,"Sin: Edad, género y trabajo",20,18.9875,14.9607,0.3852,0.7623,0.4923,0.4882,0.4769,0.4144,-0.0148,-0.0213
+Pipeline,Imputación por moda (método A) en vez de C1,23,18.5705,14.5945,0.4119,0.7771,0.5208,0.5108,0.499,-0.0027,0.0,0.0014
+Pipeline,Sin imputación (faltante como categoría),23,18.5834,14.6041,0.4111,0.7769,0.5204,0.5106,0.4988,0.0102,-0.0001,0.0012
+Pipeline,Selector de variables: lasso_suave (elegido: ninguno),23,18.5858,14.606,0.4109,0.7765,0.52,0.5096,0.4978,0.0126,-0.0005,0.0002
+Pipeline,Selector de variables: lasso_fuerte (elegido: ninguno),23,18.716,14.7219,0.4027,0.7708,0.5062,0.5004,0.4888,0.1428,-0.0063,-0.009

@@ -1,0 +1,3 @@
+﻿criterio,modelo,RMSE_cv,AUC_cv
+Mejor modelo de ensamble (regresión): menor RMSE medio en validación cruzada,XGBoost,18.510985446495518,
+Mejor clasificador de bajo desempeño: mayor AUC medio en validación cruzada,XGBoost (clasif.),,0.7901747562329577

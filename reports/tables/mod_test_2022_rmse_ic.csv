@@ -1,0 +1,9 @@
+﻿modelo,RMSE,IC95_inf,IC95_sup
+B0. Media global,24.2163,23.1619,25.3624
+B1. Media por estrato,23.1047,22.3613,23.9938
+B3. Media por institución,20.4553,20.1112,20.8094
+Ridge,19.426,19.1717,19.7312
+RandomForest,18.8319,18.5813,19.1012
+HistGradientBoosting,18.6043,18.3531,18.9159
+LightGBM,18.5768,18.3148,18.8633
+XGBoost,18.5732,18.3181,18.9165

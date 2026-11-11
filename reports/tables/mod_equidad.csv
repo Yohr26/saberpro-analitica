@@ -1,0 +1,15 @@
+﻿modelo,variable,grupo,n,pct_bajo_desempeno,recall25,dif_vs_global_pp,precision25,RMSE,error_medio,cumple_10pp,recall_global
+XGBoost,Género,F,112654,26.3506,0.5838,7.4383,0.4984,17.8154,-0.0692,True,0.5094
+XGBoost,Género,M,80693,21.7317,0.3835,-12.5916,0.4958,19.5828,0.3276,False,0.5094
+XGBoost,Región de la institución,Amazonía,931,35.6606,0.7018,19.2394,0.4745,17.5497,-1.2715,False,0.5094
+XGBoost,Región de la institución,Andina,142068,23.0854,0.4649,-4.4493,0.4843,18.7312,0.3347,True,0.5094
+XGBoost,Región de la institución,Caribe,30103,28.924,0.6104,10.1015,0.5065,17.9756,-0.6356,False,0.5094
+XGBoost,Región de la institución,Orinoquía,939,20.6603,0.2526,-25.6836,0.4118,19.0237,-1.8501,False,0.5094
+XGBoost,Región de la institución,Pacífica,19315,26.8755,0.6184,10.8965,0.5579,18.3469,-0.3564,False,0.5094
+XGBoost (clasif.),Género,F,112654,26.3506,0.572,5.9374,0.5053,,,True,0.5126
+XGBoost (clasif.),Género,M,80693,21.7317,0.4121,-10.0508,0.4904,,,False,0.5126
+XGBoost (clasif.),Región de la institución,Amazonía,931,35.6606,0.6928,18.0139,0.4723,,,False,0.5126
+XGBoost (clasif.),Región de la institución,Andina,142068,23.0854,0.4685,-4.4114,0.4876,,,True,0.5126
+XGBoost (clasif.),Región de la institución,Caribe,30103,28.924,0.618,10.5376,0.51,,,False,0.5126
+XGBoost (clasif.),Región de la institución,Orinoquía,939,20.6603,0.2784,-23.4282,0.4463,,,False,0.5126
+XGBoost (clasif.),Región de la institución,Pacífica,19315,26.8755,0.6118,9.9196,0.5605,,,True,0.5126

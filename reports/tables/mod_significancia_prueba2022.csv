@@ -1,0 +1,4 @@
+﻿metrica,modelo,linea_base_B3,valor_modelo,diferencia,IC95_inf,IC95_sup,mejora_relativa_pct,p_valor,prueba
+RMSE (puntos),XGBoost,20.45528,18.57318,-1.8821,-2.1128,-1.67449,9.20105,0.0,"diferencia de pérdida cuadrática por estudiante, error estándar agrupado por institución; IC por bootstrap de instituciones (2.000)"
+AUC-ROC,XGBoost,0.71229,0.77708,0.0648,0.0556,0.07704,9.09724,,IC por bootstrap de instituciones (300)
+Recall al alertar al 25 %,XGBoost,0.42642,0.50941,0.08299,0.07198,0.10305,19.46265,,IC por bootstrap de instituciones (300)

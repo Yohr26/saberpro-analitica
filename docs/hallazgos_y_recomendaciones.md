@@ -45,3 +45,15 @@ n = 660.712 estudiantes con los 5 módulos válidos (2020–2022). Puntaje globa
 * La acreditación institucional y las horas de estudio no están en el dataset.
 * Estrato y educación de los padres son autorreportados.
 * Los datos cubren hasta 2022; no permiten afirmar tendencias posteriores.
+
+## 5. Resultados del modelado predictivo (entrega final)
+
+Entrenamiento 2020–2021 (467.356) y prueba 2022 (193.356); todo el preprocesamiento se ajusta solo con el entrenamiento (`docs/bitacora_decisiones.md`, D-19 a D-31).
+
+* **Un modelo de ensamble supera a la línea base institucional.** XGBoost: RMSE 18,57 frente a 20,46 (B3), AUC 0,777 y recall 0,509 al alertar al 25 %. La diferencia es significativa (IC 95 % −2,11 a −1,67 puntos, con errores agrupados por institución).
+* **Gran parte del poder predictivo viene de saber a qué institución pertenece el estudiante.** Con instituciones nuevas el RMSE sube a 20,57. SHAP: institución 19,5 %, edad 10,2 %, núcleo del programa 9,0 %, estrato 5,9 %, educación del padre 4,7 %.
+* **La ablación confirma que no hay un solo bloque decisivo:** quitar modalidad y núcleo del programa (+0,42 puntos de RMSE), edad/género/trabajo (+0,41) o la identidad institucional (+0,30) es lo que más empeora el modelo; quitar bienes y conectividad del hogar casi no cambia el resultado (+0,04), probablemente porque estrato y matrícula ya recogen parte de esa información.
+* **La imputación (método C1) y la selección por Lasso no cambian el resultado predictivo** (variaciones ≤ 0,01 puntos de RMSE con el Lasso suave).
+* **Equidad: el criterio no se cumple.** El modelo recupera más mujeres que hombres entre los estudiantes en riesgo (recall 0,584 frente a 0,383), con precisión igual en ambos grupos; la causa es que alerta a menos hombres, que tienen una tasa real de bajo desempeño menor (21,7 % frente a 26,4 %). Por región, Caribe y Pacífica quedan 10–11 pp por encima del global, y Amazonía y Orinoquía (≈ 930 estudiantes cada una) tienen estimaciones muy inestables.
+
+**Implicación para las recomendaciones.** El tablero de alerta temprana de R2 debe usarse para focalizar apoyos por programa o institución, con un monitoreo periódico del recall por género y región; no para decidir sobre estudiantes individuales.
